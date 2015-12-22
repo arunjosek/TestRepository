@@ -22,7 +22,7 @@ public class Carousel {
 		List<WebElement> el = driver.findElementsByXPath("//*[@id=\"hero-cover\"]/div[1]/ul/li");
 		int hero_count = el.size();
 		
-		System.out.print(hero_count);
+		//System.out.print(hero_count);
 		for (int i=0;i<hero_count;i++){
 		
 		driver.findElementByXPath("//*[@id=\"hero-cover\"]/div[3]").click();
