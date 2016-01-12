@@ -31,6 +31,7 @@ public class PublicMethods {
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		System.out.println("Test 1");
 	}
 	
 	public void TextBox (String element, String text) throws Exception{
